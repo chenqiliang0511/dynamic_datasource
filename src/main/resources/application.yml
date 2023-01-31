@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/datasource_one
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+
+
+
