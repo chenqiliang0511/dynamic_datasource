@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * 启动类版本1
  * 启动类子分支修改2
+ * 测试远程提交
  */
 @SpringBootApplication
 public class LearnApplication {
